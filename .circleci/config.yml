@@ -11,7 +11,9 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-      - run: yarn install
+      - run:
+          command: ./manage.py test
+          name: Test
 
 workflows:
   main:
