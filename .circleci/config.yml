@@ -13,7 +13,7 @@ steps:
 - run: sudo pip install sklearn
 - run: sudo python3 -m pip install ipykernel
 - run: sudo python3 -m ipykernel install --user
-- run: jupyter-nbconvert --execute ./Notebook.ipynb
+- run: jupyter-nbconvert --execute ./.ipynb
 - store_artifacts:
-path: ./Notebook.html
-destination: Notebook.html
+path: ./raktika_dz_1.html
+destination: raktika_dz_1.ipynb.html
