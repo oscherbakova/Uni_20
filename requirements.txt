@@ -1,0 +1,6 @@
+ipython
+scikit-learn
+matplotlib
+kaggle
+seaborn
+osfclient
